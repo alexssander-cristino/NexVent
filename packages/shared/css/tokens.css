@@ -1,0 +1,66 @@
+/* Gerado por scripts/gerar-css.ts a partir de src/tokens-visuais.ts. Não edite à mão. */
+:root,
+:root[data-tema="claro"] {
+  color-scheme: light;
+  --nx-fundo: #F7F7FC;
+  --nx-superficie: #FFFFFF;
+  --nx-borda: #E4E4F0;
+  --nx-borda-campo: #8A8AA3;
+  --nx-texto: #202033;
+  --nx-texto-secundario: #6E6E88;
+  --nx-primaria: #7965D8;
+  --nx-primaria-hover: #5B46B8;
+  --nx-texto-sobre-primaria: #FFFFFF;
+  --nx-primaria-texto: #5B46B8;
+  --nx-destaque: #0891B2;
+  --nx-sucesso: #15803D;
+  --nx-sucesso-fundo: #DCFCE7;
+  --nx-perigo: #B91C1C;
+  --nx-perigo-fundo: #FEE2E2;
+  --nx-alerta: #B45309;
+  --nx-alerta-fundo: #FEF3C7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema]) {
+    color-scheme: dark;
+    --nx-fundo: #11111B;
+    --nx-superficie: #1A1A29;
+    --nx-borda: #2E2E45;
+    --nx-borda-campo: #6B6B8A;
+    --nx-texto: #ECECF6;
+    --nx-texto-secundario: #A6A6C0;
+    --nx-primaria: #7965D8;
+    --nx-primaria-hover: #6A55CC;
+    --nx-texto-sobre-primaria: #FFFFFF;
+    --nx-primaria-texto: #A99CF0;
+    --nx-destaque: #22D3EE;
+    --nx-sucesso: #4ADE80;
+    --nx-sucesso-fundo: #14301F;
+    --nx-perigo: #F87171;
+    --nx-perigo-fundo: #3B1A22;
+    --nx-alerta: #FBBF24;
+    --nx-alerta-fundo: #3A2E10;
+  }
+}
+
+:root[data-tema="escuro"] {
+  color-scheme: dark;
+  --nx-fundo: #11111B;
+  --nx-superficie: #1A1A29;
+  --nx-borda: #2E2E45;
+  --nx-borda-campo: #6B6B8A;
+  --nx-texto: #ECECF6;
+  --nx-texto-secundario: #A6A6C0;
+  --nx-primaria: #7965D8;
+  --nx-primaria-hover: #6A55CC;
+  --nx-texto-sobre-primaria: #FFFFFF;
+  --nx-primaria-texto: #A99CF0;
+  --nx-destaque: #22D3EE;
+  --nx-sucesso: #4ADE80;
+  --nx-sucesso-fundo: #14301F;
+  --nx-perigo: #F87171;
+  --nx-perigo-fundo: #3B1A22;
+  --nx-alerta: #FBBF24;
+  --nx-alerta-fundo: #3A2E10;
+}

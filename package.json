@@ -1,0 +1,17 @@
+{
+  "name": "nexvent",
+  "private": true,
+  "version": "0.0.0",
+  "description": "NexVent — plataforma SaaS multiempresa de gestão de eventos",
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^6.0.0"
+  }
+}

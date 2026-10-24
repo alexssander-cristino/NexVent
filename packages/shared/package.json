@@ -1,0 +1,12 @@
+{
+  "name": "@nexvent/shared",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "test": "node --test \"src/**/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json",
+    "tokens": "node scripts/gerar-css.ts"
+  }
+}
